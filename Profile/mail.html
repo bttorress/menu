@@ -1,0 +1,168 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/Profile/css/password.css">
+    <link rel ="website icon" type="svg" href="/assets/FavIcon.png">
+    <title>Mail</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="header">
+      <div class="header__container">
+        <img src="/assets/logo.png" alt="" class="header__img">
+          <a href="/index.html" class="header__logo">Bmod</a>
+  
+      <div class="header__search">
+      <input type="search" placeholder="Search" class="header__input">
+      <i class='bx bx-search header__icon'></i>
+      </div>
+  
+      <div class="header__toggle">
+      <i class='bx bx-menu' id="header-toggle"></i>
+      </div>
+        </div>
+    </header>
+  
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+      <nav class="nav__container">
+      <div>
+      <a href="/index.html" class="nav__link nav__logo">
+      <i class='bx bxs-disc nav__icon' ></i>
+       <span class="nav__logo-name">Bmod</span>
+      </a>
+  
+      <div class="nav__list">
+      <div class="nav__items">
+      <h3 class="nav__subtitle">Profile</h3>
+  
+      <a href="/index.html" class="nav__link active">
+      <i class='bx bx-home nav__icon' ></i>
+      <span class="nav__name">Home</span>
+      </a>
+                        
+      <div class="nav__dropdown">
+      <a href="#" class="nav__link">
+      <i class='bx bx-user nav__icon' ></i>
+      <span class="nav__name">Profile</span>
+      <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+      </a>
+  
+      <div class="nav__dropdown-collapse">
+      <div class="nav__dropdown-content">
+      <a href="/Profile/password.html" class="nav__dropdown-item">Passwords</a>
+      <a href="/Profile/mail.html" class="nav__dropdown-item">Mail</a>
+      <a href="/Profile/Accounts.html" class="nav__dropdown-item">Accounts</a>
+      </div>
+      </div>
+      </div>
+  
+      <a href="/Messages/messages.html" class="nav__link">
+      <i class='bx bx-message-rounded nav__icon' ></i>
+      <span class="nav__name">Messages</span>
+      </a>
+      </div>
+  
+      <div class="nav__items">
+      <h3 class="nav__subtitle">Menu</h3>
+  
+      <div class="nav__dropdown">
+      <a href="#" class="nav__link">
+      <i class='bx bx-bell nav__icon' ></i>
+      <span class="nav__name">Notifications</span>
+      <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+      </a>
+  
+      <div class="nav__dropdown-collapse">
+      <div class="nav__dropdown-content">
+      <a href="#" class="nav__dropdown-item">Blocked</a>
+      <a href="#" class="nav__dropdown-item">Silenced</a>
+      <a href="#" class="nav__dropdown-item">Publish</a>
+      <a href="#" class="nav__dropdown-item">Program</a>
+      </div>
+      </div>
+      </div>
+  
+    <a href="#" class="nav__link">
+    <i class='bx bx-compass nav__icon' ></i>
+    <span class="nav__name">Explore</span>
+    </a>
+    <a href="#" class="nav__link">
+    <i class='bx bx-bookmark nav__icon' ></i>
+    <span class="nav__name">Saved</span>
+    </a>
+    </div>
+    </div>
+    </div>
+  
+    <a href="#" class="nav__link nav__logout">
+    <i class='bx bx-log-out nav__icon' ></i>
+    <span class="nav__name">Log Out</span>
+    </a>
+    </nav>
+    </div>
+  
+    <!--========== CONTENTS ==========-->
+<main>       
+ <div class="centering">
+    <form class="my-form">
+    <div class="password-new-row">
+    <h1> Change E-mail</h1>
+                </div>
+        
+<div class="text-field">
+    <label for="password">Current e-mail:</label>
+    <input 
+    aria-label="E-mail" 
+    type="E-mail" 
+    id="E-mail" 
+    name="E-mail" 
+    placeholder="Chance e-mail" 
+    required>
+    
+            </div>  
+
+
+            
+    <div class="text-field">
+    <label for="password">New e-mail:</label>
+    <input 
+    id="E-mail" 
+    type="E-mail" 
+    aria-label="E-mail"
+    name="E-mail" 
+    placeholder="New e-mail"  
+    required>
+            </div>
+
+    <div class="text-field">
+    <label for="password">Confirm E-mail:</label>
+    <input 
+    id="E-mail" 
+    type="E-mail" 
+    aria-label="E-mail"
+    name="E-mail" 
+    placeholder="new e-mail" 
+    required>
+            </div>        
+
+        
+<input type="submit" class="my-form__button" value="Send">    
+                
+</div>
+</div>
+</form> 
+ </div>
+    </main> 
+  
+  
+    <script src="/js/main.js"></script>
+  </body>
+  </html>
